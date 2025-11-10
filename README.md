@@ -1,12 +1,12 @@
 ### Software and libraries
-  Visual Studio Code 1.100.3
-  Python 3.10.9
-  pandas 1.5.3
-  numpy 1.26.4
-  matplotlib 3.10.0
-  seaborn 0.13.2
-  scipy 1.15.3
-  scikit-learn 1.5.2
+  1. Visual Studio Code 1.100.3
+  2. Python 3.10.9
+  3. pandas 1.5.3
+  4. numpy 1.26.4
+  5. matplotlib 3.10.0
+  6. seaborn 0.13.2
+  7. scipy 1.15.3
+  8. scikit-learn 1.5.2
 
 
 ### Operating systems
@@ -23,12 +23,8 @@
 
 ## Customization Options
   The comprehensive score is calculated as a weighted mean of three metrics.
-The weights can be modified in the 'SCORE_WEIGHTS' dictionary:
-	SCORE_WEIGHTS = {
-    	'linearity': 0.33,      # Weight for concentration-response linearity
-    	'order': 0.34,          # Weight for biological order correlation
-    	'classification': 0.33  # Weight for ML classification performance
-	}
+The weights can be modified in the 'SCORE_WEIGHTS' dictionary.
+
 
 ## Ensembled Comprehensive Score
   1. Each of the 6 ML models generates a comprehensive score for every combination
